@@ -16,5 +16,7 @@ function TestComponent() {
     </div>
   );
 }
-
+function TestComponent() {
+  return <p title="time video">This is the TestComponent!</p>; // Added title="time video"
+}
 export default TestComponent;
