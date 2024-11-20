@@ -1,6 +1,7 @@
 import React from "react";
 import ExampleComponent from "./ExampleComponent";
-// Add your code own within the return statement
+import TestComponent from "./TestComponent"; // Import TestComponent
+
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,7 @@ function App() {
         self-contained chunks of JSX.
       </p>
       <ExampleComponent />
-      
+      <TestComponent /> {/* Add TestComponent */}
     </div>
   );
 }
